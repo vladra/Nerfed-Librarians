@@ -8,7 +8,7 @@ plugins {
     id("de.eldoria.plugin-yml.bukkit") version "0.7.1"
 }
 
-group = "com.vladra.nerfed-librarians"
+group = "com.vladra.nerfedLibrarians"
 version = "1.0"
 description = "Nerf librarians by removing enchanted book trades."
 
@@ -38,7 +38,7 @@ tasks {
 }
 
 bukkit {
-    main = "com.vladra.nerfed-librarians.NerfedLibrarians"
+    main = "com.vladra.nerfedLibrarians.NerfedLibrarians"
     apiVersion = "1.21"
     author = "Vladra"
     }

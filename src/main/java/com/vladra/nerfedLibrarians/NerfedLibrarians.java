@@ -26,7 +26,7 @@ public class NerfedLibrarians extends JavaPlugin {
         PluginManager pluginManager = Bukkit.getPluginManager();
         pluginManager.registerEvents(new com.vladra.nerfedLibrarians.listener.ChunkLoadListener(), this);
         pluginManager.registerEvents(new com.vladra.nerfedLibrarians.listener.VillagerAcquireTradeListener(), this);
-        this.getLogger().info("[Nerfed Librarians] Plugin enabled");
+        this.getLogger().info("Plugin enabled");
 
         //in case a chunk happens to already be loaded? full coverage
 
@@ -47,7 +47,7 @@ public class NerfedLibrarians extends JavaPlugin {
      */
     @Override
     public void onDisable() {
-        this.getLogger().info("[Nerfed Librarians] Plugin disabled");
+        this.getLogger().info("Plugin disabled");
 
     }
 
